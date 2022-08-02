@@ -1,0 +1,43 @@
+* {
+    padding: o;
+    margin: 0;
+}
+
+#preferencias {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 120px;
+    color: rgb(4, 75, 75);
+}
+
+#color-palette{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 30%;
+    margin: auto;
+}
+
+.color {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin-top: 100px;
+    border-radius: 50%;
+}
+
+#cor1 {
+    background-color: black;
+}
+
+#cor2 {
+    background-color: rgb(15, 90, 100);
+}
+
+#cor3 {
+    background-color: yellow;
+}
+
+#cor4 {
+    background-color: rgb(250, 120, 14);
+}
