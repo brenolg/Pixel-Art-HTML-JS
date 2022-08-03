@@ -9,16 +9,35 @@ let corSelecionada = "black";
 window.onload = function corInicial (){
      let preto = document.querySelector('#cor1');
      preto.classList.add('selected')
-     console.log(preto)
+
 }
 
 let board = document.querySelector('#color-palette');
-board.addEventListener('click', function(event) {
+board.addEventListener('click', function cor(event) {
      let divSelecionada =  event.target;
      let selected = document.querySelector('.selected')
      selected.classList.remove('selected')
      divSelecionada.classList.add('selected')
-   });
+     let corDoBoard = divSelecionada;
+     return corDoBoard
+})
+
+let pixel = document.querySelector('#pixel-board');
+pixel.addEventListener('click', function (e){
+  let color =
+  getComputedStyle(document.querySelector('.selected')).backgroundColor;
+  e.target.style.backgroundColor = color;
+
+});
+
+
+
+
+
+
+
+
+   
 
 
 

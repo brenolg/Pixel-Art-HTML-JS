@@ -57,3 +57,9 @@
     height: 40px;
     width: 40px;
 }
+
+#x{
+    height: 100px;
+    width: 100px;
+    border: 1px solid salmon ;
+}
