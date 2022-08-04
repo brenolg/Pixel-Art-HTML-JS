@@ -49,15 +49,16 @@ pixel.addEventListener('click', function (e){
 
 });
 
-let pixelCler= document.querySelectorAll('.pixel');
+const pixelClear = document.getElementsByClassName('pixel');
 let botao = document.querySelector('#clear-board');
-botao.addEventListener('click', function(){
-  for (let index = 0; index <= pixelCler.length; index += 1) {
-    pixelCler[index].style.backgroundColor = "white";
-    
-  }
-})
 
+function limpaPixel() {
+	for(let i = 0; i < 25; i += 1) {
+		pixelClear[i].style.backgroundColor = 'white';
+	}
+}
+
+botao.addEventListener('click', limpaPixel);
 
 
 
