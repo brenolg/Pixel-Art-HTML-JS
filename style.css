@@ -58,8 +58,13 @@
     width: 40px;
 }
 
-#x{
-    height: 100px;
-    width: 100px;
-    border: 1px solid salmon ;
+#clear-board{
+    margin-top: 50px;
+    font-size: 30px;
+    border: 1px solid rgb(0, 0, 0) ;
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(4, 75, 75);
+    
+
 }
