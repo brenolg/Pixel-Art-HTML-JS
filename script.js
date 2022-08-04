@@ -31,9 +31,9 @@ botaoPopulate.addEventListener('click', function(){
     }
 
     let larguraDiv = input.value * 42;
-      divPai.style.maxWidth = larguraDiv + "px";
-      console.log(divPai.style.maxWidth)
-    
+      divPai.style.width = larguraDiv + "px";
+      divPai.style.height = larguraDiv + "px";
+      
 })
 
 let board = document.querySelector('#color-palette');
