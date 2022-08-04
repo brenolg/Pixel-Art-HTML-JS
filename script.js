@@ -20,7 +20,7 @@ botaoPopulate.addEventListener('click', function(){
         pixelDel[index].remove();
         
       }
-      for (let index = 1; index <= input.value; index += 1) {
+      for (let index = 1; index <= input.value*input.value; index += 1) {
          divColor = document.createElement('div');
          divColor.className = 'pixel';
          document.getElementById('pixel-board').appendChild(divColor);
@@ -29,6 +29,11 @@ botaoPopulate.addEventListener('click', function(){
       } else {
       alert("Board inválido!");
     }
+
+    let larguraDiv = input.value * 42;
+      divPai.style.maxWidth = larguraDiv + "px";
+      console.log(divPai.style.maxWidth)
+    
 })
 
 let board = document.querySelector('#color-palette');
