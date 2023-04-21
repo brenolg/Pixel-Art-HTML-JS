@@ -22,7 +22,7 @@ Futura Imagem
 * Ao clicar em um pixel do quadro após selecionar uma cor na paleta, o pixel é preenchido com esta cor.
 * A página possui um botão que limpa o quadro preenchendo todos os pixels com branco.
 * A página possui um campo de texto onde o usuário pode digitar um número para alterar a largura e altura do quadro de pixels
-* A página possui um botão que gera uma cor aleatória para cada elemento da paleta ao ser clicado.
+* A página gera cores aleatórias ao carregar a página
 
 # Tecnologias utilizadas
 * HTML
