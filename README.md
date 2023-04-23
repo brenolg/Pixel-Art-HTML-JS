@@ -31,7 +31,7 @@ Futura Imagem
 * DOM manipulation
 
 # Instalação do projeto localmente
-Não é necessário rodar o projeto localmente para ver o jogo rodando, pois ele está rodando nesse  [link](https://brenolg.github.io/star-wars-planets/).
+Não é necessário rodar o projeto localmente, pois ele está rodando nesse  [link](https://brenolg.github.io/star-wars-planets/).
 * ATUALIZR LINK POS INSERIR NOGHPAGES
   
 Para instalar o projeto localmente, você precisa ter o Git instalado no seu computador. Depois, siga os seguintes passos:
