@@ -4,10 +4,10 @@ Este projeto consiste em criar uma página web que permite ao usuário desenhar 
 
 <br/>
 
-<img width="100%" src="./src/images/starWars.gif" />
+<img width="100%" src="art-with-pixels.gif" />
 Futura Imagem
 
-<a	href="https://brenolg.github.io/star-wars-planets/"
+<a	href="https://brenolg.github.io-wars-planets/"
 	target="_blank"
 	rel="noopener noreferrer"> Pixel Art Page
 <a/>
@@ -28,6 +28,7 @@ Futura Imagem
 * HTML
 * CSS
 * JavaScript
+* DOM manipulation
 
 # Instalação do projeto localmente
 Não é necessário rodar o projeto localmente para ver o jogo rodando, pois ele está rodando nesse  [link](https://brenolg.github.io/star-wars-planets/).
@@ -37,7 +38,12 @@ Para instalar o projeto localmente, você precisa ter o Git instalado no seu com
 
 Clone o repositório do GitHub usando o comando 
 ```javascript
-git clone git@github.com:brenolg/pixel-art.git.
+git clone git@github.com:brenolg/Pixel-Art.git
+```
+Depois de clonar, entre na pasta do projeto e instale as dependências:
+
+```javascript
+npm install
 ```
 Abra o arquivo index.html em um navegador de sua preferência.
 Divirta-se criando a sua arte pixelada!
@@ -46,7 +52,7 @@ Divirta-se criando a sua arte pixelada!
 1. Adicione à página uma paleta contendo quatro cores distintas
 2. Adicione a cor **preta** como a primeira cor da paleta de cores
 3. Adicione à página um quadro contendo 25 pixels
-4. Faça com que cada elemento do quadro de pixels possua 40 pixels de largura, 40 pixels de altura e seja delimitado por uma borda preta de 1 pixel
+4. Faça com que cada elemento do quadro de pixels possui 40 pixels de largura, 40 pixels de altura e seja delimitado por uma borda preta de 1 pixel
 5. Defina a cor preta como cor inicial da paleta de cores. Ao carregar a página a cor preta já deve estar selecionada para pintar os pixels
 6. Crie uma função para selecionar uma cor na paleta de cores e preencher os pixels no quadro
 7. Crie uma função que permita preencher um pixel do quadro com a cor selecionada na paleta de cores
@@ -58,3 +64,5 @@ Divirta-se criando a sua arte pixelada!
 Agradeço à Trybe por me proporcionar esta oportunidade de aprendizado e desenvolvimento de habilidades. Agradeço também aos meus colegas e instrutores que me apoiaram e me ajudaram durante o projeto.
 
 Espero que você tenha gostado do meu README. Se tiver alguma sugestão ou feedback, por favor me envie uma mensagem ou abra uma issue no GitHub. Obrigado! 😊
+
+
