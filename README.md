@@ -28,8 +28,7 @@ Este projeto consiste em criar uma página web que permite ao usuário desenhar 
 * DOM manipulation
 
 # Instalação do projeto localmente
-Não é necessário rodar o projeto localmente, pois ele está rodando nesse  [link](https://brenolg.github.io/star-wars-planets/).
-* ATUALIZR LINK POS INSERIR NOGHPAGES
+
   
 Para instalar o projeto localmente, você precisa ter o Git instalado no seu computador. Depois, siga os seguintes passos:
 
