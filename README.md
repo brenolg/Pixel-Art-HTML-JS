@@ -5,12 +5,9 @@ Este projeto consiste em criar uma página web que permite ao usuário desenhar 
 <br/>
 
 <img width="100%" src="art-with-pixels.gif" />
-Futura Imagem
 
-<a	href="https://brenolg.github.io-wars-planets/"
-	target="_blank"
-	rel="noopener noreferrer"> Pixel Art Page
-<a/>
+
+
 
 <br/>
 
