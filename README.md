@@ -34,7 +34,7 @@ Para instalar o projeto localmente, você precisa ter o Git instalado no seu com
 
 Clone o repositório do GitHub usando o comando 
 ```javascript
-git clone git@github.com:brenolg/Pixel-Art.git
+git clone git@github.com:brenolg/Pixel-Art-HTML-JS.git
 ```
 Depois de clonar, entre na pasta do projeto e instale as dependências:
 
